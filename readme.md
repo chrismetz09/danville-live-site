@@ -86,6 +86,80 @@ Now we can commit our changes.
 
 7. Commit Changes
 
+```
+christophermetz:danville-live-site $ git commit -s -a -m 'modified readme'
+[your-branch-name e7d0de5] modified readme
+ Committer: chrismetz09 <christophermetz@Christophers-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 83 insertions(+), 1 deletion(-)
+christophermetz:danville-live-site $
+```
+
+You can any comment in quote above.
+
+Next step is push to the remote repo
+
+8. Push
+
+```
+christophermetz:danville-live-site $ git push smith your-branch-name
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.22 KiB | 1.22 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'your-branch-name' on GitHub by visiting:
+remote:      https://github.com/chrismetz09/danville-live-site/pull/new/your-branch-name
+remote:
+To https://github.com/chrismetz09/danville-live-site.git
+ * [new branch]      your-branch-name -> your-branch-name
+christophermetz:danville-live-site $
+```
+
+Note the `smith` was used here. And the branch name is the one defined. You can verify
+
+Before the push
+
+```
+christophermetz:danville-live-site $ git branch
+  master
+* your-branch-name
+christophermetz:danville-live-site $
+```
+
+Asterik identifies branch you have been working with.
+
+9. Pull Request
+
+Go to `https://github.com/chrismetz09/danville-live-site` and you shoud see name of your branch and green `Compare & pull request` button. Press it.
+
+10. Open Pull Request
+
+You will see green `create pull request`. Press it. If you want to inspect changes prior to pressing green button, scroll down.
+
+11. Merge Pull Request
+
+Some tests may run so give it a minute or two. Then press green `merge pull request`.
+
+12. Successful Merge
+
+Success means purple merge message appears. Look closely and you can delete this branch if you so desire.
+
+13. Update Master and Delete Branch in local repo
+
+Return to command line on laptop.
 
 
 
