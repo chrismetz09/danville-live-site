@@ -7,7 +7,7 @@ enableRobotsTXT = true
 disableKinds=["RSS"]
 
 [params]
-  description = 'Looking for a home to raise your family? With great schools and tons of activities for your kids?</br> Work in Silicon Valley for San Franciso? You can do that too. I know.</br> My name is Leonor Mayber Metz and our family has lived in Danville, Ca. for the last 15 years.'
+  description = 'Looking for a home to raise your family? With great schools and tons of activities for your kids?</br> Work in Silicon Valley or San Franciso? You can do that too. I know.</br> My name is Leonor Mayber Metz and our family has lived in Danville, Ca. for the last 15 years.f Let me tell you about it.'
   logo = "fa-diamond"
   copyright = "Untitled"
 
