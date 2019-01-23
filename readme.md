@@ -162,4 +162,7 @@ Success means purple merge message appears. Look closely and you can delete this
 Return to command line on laptop.
 
 
+## Splash Page
+
+![fist splash](img/web-splash.png)
 
