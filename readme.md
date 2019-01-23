@@ -166,3 +166,8 @@ Return to command line on laptop.
 
 ![fist splash](img/web-splash.png)
 
+## Hello Square
+
+![hello square](docs/images/hello-square.png)
+
+
